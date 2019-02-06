@@ -8,7 +8,7 @@ public class Main {
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String n = reader.nextLine();
-        if (n.equals("Alice") || n.equals("Bob")) {
+        if (n.equalsIgnoreCase("Alice") || n.equalsIgnoreCase("Bob")) {
             System.out.println("Hello");
         }
     }
